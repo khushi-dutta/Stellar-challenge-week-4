@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d3557;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    background: #f1faee;
+    margin:100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+  
+
+input[type="text"], input[type="date"], select, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+  
+button {
+    cursor: pointer;
+    background-color: #1d3557;
+    color: #f1faee;
+    border-radius: 40px;
+}
+  
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+
+.task {
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.personal {
+    background-color: lightblue;
+}
+
+
+.work {
+    background-color: lightgreen;
+}
+ 
+
+  .other {
+    background-color: lightcoral;
+}
+  
+
+ul li.checked{
+    color: #1d3557;
+    text-decoration: line-through;
+}  
